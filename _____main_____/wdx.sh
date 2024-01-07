@@ -21,7 +21,7 @@ echo ""
 if [[ $ipku == "1" ]]; then
 echo -e ""
 # install script
-wget ${REPO}_____main_____/wdx.sh && chmod +x wdx.sh && ./wdx.sh
+wget ${REPO}_____main_____/wtf.sh && chmod +x wtf.sh && ./wtf.sh
 elif [[ $ipku == "2" ]]; then
 echo -e ""
 # intall menu add-ip
@@ -33,7 +33,10 @@ print_install "Regist Not Found"
 clear
     fi
 }
-
+apt upgrade -y
+apt update -y
+apt install curls
+apt install wondershaper -y
 #
 Green="\e[92;1m"
 RED="\033[1;31m"
