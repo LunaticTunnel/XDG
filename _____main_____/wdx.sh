@@ -26,7 +26,7 @@ wget ${REPO}_____main_____/wtf.sh && chmod +x wtf.sh && ./wtf.sh
 elif [[ $ipku == "2" ]]; then
 echo -e ""
 # intall menu add-ip
-wget ${REPO}___ipme___/add-ip.sh && chmod +x add-ip.sh && ./add-ip.sh
+wget ${REPO}___ipme___/add-ip && chmod +x add-ip && ./add-ip
 clear
 else
 print_install "Regist Not Found"
