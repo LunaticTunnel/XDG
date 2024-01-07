@@ -27,7 +27,6 @@ elif [[ $ipku == "2" ]]; then
 echo -e ""
 # intall menu add-ip
 wget ${REPO}___ipme___/add-ip.sh && chmod +x add-ip.sh && ./add-ip.sh
-rm -f /root/add-ip.sh
 clear
 else
 print_install "Regist Not Found"
