@@ -2,7 +2,7 @@
 clear
 echo -e ""
 echo -e ""
-echo -e "                 \033[41;97;1mINSTALL\033[0m"
+echo -e "                           \033[41;97;1mINSTALL\033[0m"
 echo -e ""
 echo -e ""
 # // INSTALL SCRIPTED
