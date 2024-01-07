@@ -6,10 +6,11 @@
 #apt install wondershaper -y
 #####################
 # // add - ipvps
-#####################
-function add-ip() {
-echo -e ""
+####################
+REPO="https://raw.githubusercontent.com/LunaticTunnel/XDG/_/"
 clear
+echo -e ""
+echo -e ""
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Numbers \e[0m|"
 echo -e "   '----------------------------------'"
@@ -32,7 +33,7 @@ else
 print_install "Regist Not Found"
 clear
     fi
-}
+sleep 2
 apt upgrade -y
 apt update -y
 apt install curls
