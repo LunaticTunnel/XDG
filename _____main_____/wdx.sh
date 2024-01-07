@@ -33,6 +33,7 @@ else
 print_install "Regist Not Found"
 clear
     fi
+clear
 sleep 2
 apt upgrade -y
 apt update -y
