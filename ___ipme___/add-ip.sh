@@ -52,7 +52,7 @@ dayleft=$(( ($d1 - $d2) / 86400 ))
 #}
 #checking_sc
 
-TOKEN="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"
+TOKEN="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"
 REPO="https://github.com/LunaticTunnel/permission.git"
 EMAIL="scpribadi293@gmail.com"
 USER="LunaticTunnel"
