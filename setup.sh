@@ -1,8 +1,8 @@
 # --------------------------------------------------
-# ENCRYPTED BY B14CK-KN1GH7 (NAFIS FUAD)
-# Github   : http://github.com/nfs-tech-bd
-# Facebook : http://facebook.com/nafis.fuad.904
-# Telegram : http://t.me/Nafisfuad1
+# ENCRYPTED BY Lunatic Tunnel (LT | PROJECT)
+# Github   : http://github.com/LunaticTunnel
+# Facebook : http://facebook.com/Dean
+# Telegram : http://t.me/LunaticTunnel
 # --------------------------------------------------
 NFS=$(mktemp)
 base64 -d  >${NFS}<<B14CK-KN1GH7
